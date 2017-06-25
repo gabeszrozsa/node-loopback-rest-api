@@ -30,8 +30,12 @@ module.exports = function(Product) {
     },
   });
 
+  // NOTE: Validate Uniqueness
   Product.validatesUniquenessOf('name');
 
+
+
+  // NOTE: Validate positive integer
   const positiveInteger = /^[0-9]*$/;
 
   const validatePositiveInteger = function(error) {
@@ -44,6 +48,9 @@ module.exports = function(Product) {
     message: 'Price should be a positive integer',
   });
 
+
+
+  // NOTE: Validate minimal price
   function validateMinimalPrice(err, done) {
     const price = this.price;
 

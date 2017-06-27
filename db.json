@@ -6,7 +6,7 @@
     "RoleMapping": 1,
     "Role": 1,
     "Product": 14,
-    "Category": 4
+    "Category": 6
   },
   "models": {
     "User": {},
@@ -15,7 +15,6 @@
     "RoleMapping": {},
     "Role": {},
     "Product": {
-      "1": "{\"id\":1,\"name\":\"price minimum\",\"price\":100}",
       "2": "{\"name\":\"Tea\",\"price\":199,\"categoryId\":1,\"id\":2}",
       "3": "{\"name\":\"Lemoncake\",\"price\":399,\"categoryId\":2,\"id\":3}",
       "4": "{\"name\":\"Cheesecake\",\"price\":499,\"categoryId\":2,\"id\":4}",
@@ -29,7 +28,9 @@
     "Category": {
       "1": "{\"name\":\"Drink\",\"id\":1}",
       "2": "{\"name\":\"Food\",\"id\":2}",
-      "3": "{\"name\":\"my category\",\"id\":3}"
+      "3": "{\"name\":\"my category\",\"id\":3}",
+      "4": "{\"name\":\"my category\",\"id\":4}",
+      "5": "{\"name\":\"my category\",\"id\":5}"
     }
   }
 }
